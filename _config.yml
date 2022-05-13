@@ -12,17 +12,15 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+
 
 title: Zikipedia
 description: >- # this means to ignore newlines until "baseurl:"
   Your one stop shop for all the zLingo you don't understand (yet)!
 baseurl: "/zikipedia" # the subpath of your site, e.g. /blog
 url: "https://ibmredbooks.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: pretty
+
 
 # Build settings
 theme: slate
@@ -31,6 +29,9 @@ plugins:
 - jekyll-remote-theme
 plugins:
   - jekyll-feed
+
+include:
+  - contribute.markdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.
