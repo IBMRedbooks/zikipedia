@@ -1,3 +1,5 @@
+layout: default
+
 # zikipedia
 
 # Contribution Guidelines
