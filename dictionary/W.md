@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: dictionary/W
+permalink: dictionary/W/
 ---
 
 # W

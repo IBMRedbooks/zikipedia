@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: dictionary/R
+permalink: dictionary/R/
 ---
 
 # R

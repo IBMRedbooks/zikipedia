@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Contribution Guidelines
-permalink: /contribute
+permalink: /contribute/
 ---
 
 <h2>Contribution Guidelines</h2>
