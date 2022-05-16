@@ -1,9 +1,7 @@
 ---
 layout: default
-permalink: /H
+permalink: dictionary/H
 ---
-
-[Back](/zikipedia/zictionary) 
 
 # H
 

@@ -1,9 +1,7 @@
 ---
 layout: default
-permalink: /E
+permalink: dictionary/E
 ---
-
-[Back](/zikipedia/zictionary) 
 
 # E
 

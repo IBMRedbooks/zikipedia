@@ -27,17 +27,13 @@
               <a class="tar_download_link" href="{{ site.github.tar_url }}">Download this project as a tar.gz file</a>
             </section>
           {% endif %}
+          <ul>
+            {% for item in site.data.menu %}
+            <li><a class="{% if page.url == item.link %}active{% endif %}" href="{{item.link}}">{{item.title}}</a></li>
+            {% endfor %}
+          </ul>
         </header>
     </div>
-
-    <!-- NAV -->
-    <nav>
-      <ul>
-        {% for item in site.data.menu %}
-        <li><a class="{% if page.url == item.link %}active{% endif %}" href="{{item.link}}">{{item.title}}</a></li>
-        {% endfor %}
-      </ul>
-    </nav>
 
     <style>
       nav ul {
