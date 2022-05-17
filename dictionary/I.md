@@ -7,6 +7,7 @@ permalink: dictionary/I/
 
 ### ICSF *(Integrated Cryptographic Facility)*
 > 💡 _Like the graphics card you install on your PC but instead of being optimized for foating point operations crypto cards are optimized for doing cryptography._
+
 * z/OS component that provides the interface to the crypto cards on the system.
 
 ### IDCAMS
@@ -17,6 +18,7 @@ permalink: dictionary/I/
 
 ### IEBCOPY
 > 💡 _This tool is functionally similar to the `cp` command on Linux._
+
 * A program used for copying data sets.
 
 ### IEBGENER
@@ -24,6 +26,7 @@ permalink: dictionary/I/
 
 ### IEWBLINK
 > 💡 _This is a lot like the `ld` command on Linux._
+
 * Program used to invoke the binder, which is the link editor for z/OS.
 
 ### IFL *(Integrated Facility for Linux)*
@@ -43,6 +46,7 @@ permalink: dictionary/I/
 
 ### IPL *(Initial Program Load)*
 > 💡 _Like booting your PC._
+
 * Used to refer to doing a cold start of the system.
 
 ### ISPF *(Interactive System Productivity Facility)*

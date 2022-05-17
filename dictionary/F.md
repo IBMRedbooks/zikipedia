@@ -10,6 +10,7 @@ permalink: dictionary/F/
 
 ### FMID *(Function Modification Identifier)*
 > 💡 _This is functionaly similar to a version number or a git commit id._
+
 * This is a code that identifies the release of a z/OS product or component.
 
 ### Frame

@@ -7,6 +7,7 @@ permalink: dictionary/H/
 
 ### HCD *(Hardware Control Definition)*
 > 💡 _This utility is used to configure I/O devices on z/OS._
+
 * Interface for creating an IODF *(Input/Output Definition File)*
 
 ### HFS *(Hierarchical File System)*
@@ -14,6 +15,7 @@ permalink: dictionary/H/
 
 ### HLASM *(High Level Assembler)*
 > 💡 _This is analogous to GNU NASM assembler._
+
 * The Language and Assembler used for writting assembly language programs on z/OS.
 
 ### HLQ *(High Level Qualifier)*

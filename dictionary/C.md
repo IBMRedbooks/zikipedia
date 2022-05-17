@@ -13,6 +13,7 @@ permalink: dictionary/C/
 
 ### CF *(Coupling Facility)*
 > 💡 _This can be thought of as being analogous to Kubernetes._
+
 * This is mechanism for enabling resource sharing between disparate z/OS systems. More specifically, it is used to link separate z/OS systems into one optimized system.
 
 ### CICS *(Customer Information Control System)*
@@ -26,6 +27,7 @@ permalink: dictionary/C/
 
 ### COMP (Component)
 > 💡 _If you compare z/OS to an application built using microservices, the microservices can be thought of as analogous to z/OS components._
+
 * A distict piece of the operating system.
 
 ### Control Instructions 
@@ -39,6 +41,7 @@ permalink: dictionary/C/
 
 ### CPC *(Central Processing Complex)*
 > 💡 _Think of the motherboard in your PC. It has a CPU socket and a few DIMM card slots. A mainframe has multiple draws that each contain multiple CPU sockets and dozens or DIMM card slots._
+
 * The draws in the z/OS mainframe box that contain the processors and the DIMM cards.
 
 ### CSECT *(Control Section)*
@@ -46,4 +49,5 @@ permalink: dictionary/C/
 
 ### CYL *(Cylinder)*
 > 💡 _This is can be thought of as an alternative to bytes in the same way that Farenheit is an alternative to Celcius._
+
 * This is a metric for measuring the amount of data store on DASD disks. This unit refers to the physical size of the cylinders on the DASD disk drives.
