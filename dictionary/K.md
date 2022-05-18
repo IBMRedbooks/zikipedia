@@ -5,6 +5,8 @@ permalink: dictionary/K/
 
 # K
 
+&nbsp;
+
 ### KSDS *(Key Sequence Data Set)*
 > 💡 _Functionally similar to a Python dictionary._
 

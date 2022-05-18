@@ -5,6 +5,8 @@ permalink: dictionary/L/
 
 # L
 
+&nbsp;
+
 ### LE *(Link Edit)*
 * Just an acronym for Link Edit.
 

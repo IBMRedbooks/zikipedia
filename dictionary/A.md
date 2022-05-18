@@ -5,6 +5,8 @@ permalink: dictionary/A/
 
 # A
 
+&nbsp;
+
 ### ABEND *(Abnormal End)*
 * This means that the program crashed.
 

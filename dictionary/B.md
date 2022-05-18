@@ -5,6 +5,8 @@ permalink: dictionary/B/
 
 # B
 
+&nbsp;
+
 ### Batch
 > 💡 _The antivirus that runs on your PC can be thought of as a batch workload_
 

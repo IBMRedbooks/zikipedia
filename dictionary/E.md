@@ -5,6 +5,8 @@ permalink: dictionary/E/
 
 # E
 
+&nbsp;
+
 ### EAV *(Extended Address Volume)*
 > 💡 _This concept can be thought of as like treating all or a subset of the disk and SSD drives installed on your PC as one disk._
 

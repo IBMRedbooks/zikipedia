@@ -5,6 +5,8 @@ permalink: dictionary/J/
 
 # J
 
+&nbsp;
+
 ### JCL *(Job Control Language)*
 > 💡 _JCL is functionaly similar to a shell script._
 

@@ -2,14 +2,7 @@
 layout: default
 ---
 
-# zikipedia
+<img title="IBM z16" alt="IBM z16" id="z16" src="/zikipedia/assets/img/z16.jpg">
 
-# Contribution Guidelines
-
-## Dictionary Definition Format:
-### ACRONYM/Term *(Expansion of ACRONYM if necessary)*
-> 💡 _Try to tie the ACRONYM/Term to something someone new to z/OS already knows to help demystify the concept._
-* Give a clear and concise defition for the ACRONYM/Term.
-
-## Pull Request
-* When Contributions are ready, they must be made using a **[pull request](../../pulls)**.
+### What is Zikipedia?
+Zikipedia is a dictionary of all of the Jargon that mainframers use to describe z/OS concepts, components, and tools. The definitions provided here strive to demystify all of this jargon so that anyone who has familiarity with distributed systems can understand z/OS.

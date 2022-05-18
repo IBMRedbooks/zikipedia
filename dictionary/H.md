@@ -5,6 +5,8 @@ permalink: dictionary/H/
 
 # H
 
+&nbsp;
+
 ### HCD *(Hardware Control Definition)*
 > 💡 _This utility is used to configure I/O devices on z/OS._
 

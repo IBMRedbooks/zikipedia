@@ -5,6 +5,8 @@ permalink: dictionary/D/
 
 # D
 
+&nbsp;
+
 ### DAT *(Dynamic Address Translation)*
 > 💡 _Note that the user's programs run in a logical address space meaning that the operating system needs a mechanism to translate references to logical addresses to real addresses._
 
@@ -40,8 +42,11 @@ permalink: dictionary/D/
 ### DFSMSdss
 * Part of DFSMS that provides utilities for copying and moving data.
 
-### DFSMShsm *(Hierarchical Storage Manager)*
+### DFSMShsm *(DFSMS Hierarchical Storage Manager)*
 * Data storage technique that moves data between low and high cost storage devices. DFSMShsm also backup and disaster recovery capabilities.
+
+### DFSMSrmm 
+* Part of DFSMS that provides functions for managing tape.
 
 ### DLIB *(Distribution Library)*
 * Contains an entire copy of the z/OS product. This is used by SMPE as a local repository where new APARs and PTFs can be added, and the updates can be installed from this repository when the organization is ready. DLIBs may also be used for backup.

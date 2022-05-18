@@ -5,6 +5,8 @@ permalink: dictionary/I/
 
 # I
 
+&nbsp;
+
 ### ICSF *(Integrated Cryptographic Facility)*
 > 💡 _Like the graphics card you install on your PC but instead of being optimized for foating point operations crypto cards are optimized for doing cryptography._
 
@@ -31,6 +33,9 @@ permalink: dictionary/I/
 
 ### IFL *(Integrated Facility for Linux)*
 * Special purpose mainframe processor designated for running Linux.
+
+### Instruction Counter
+* This is the part of the program status word that stores the next intruction of the currently running program.
 
 ### IOCDS *(Input/Output Control Data Set)*
 * A data set that contains a series of I/O configurations for a particular processor. Only one configuration can be used at a time.

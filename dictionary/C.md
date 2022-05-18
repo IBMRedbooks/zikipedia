@@ -5,6 +5,8 @@ permalink: dictionary/C/
 
 # C
 
+&nbsp;
+
 ### CB *(Control Block)*
 * These are blocks of storage/memory that describe entities on the system *(users, tasks, jobs, etc...)*.
 

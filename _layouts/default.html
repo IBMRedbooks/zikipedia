@@ -22,7 +22,7 @@
               <img src="{{site.logo | relative_url}}" alt="Logo" />
             {% endif %}
           </a>
-          <h3 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h3>
+          <p id="project_tagline">{{ site.description | default: site.github.project_tagline }}</p>
           <br>
           <div class="list-group">
             <a class="list-group-item" href="/zikipedia/">Home</a>
@@ -38,8 +38,8 @@
             </section>
           {% endif %}
           <br>
-          <h4 id="dictionary">Dictionary</h4>
-          <div class="list-group">
+          <button type="button" class="btn" data-toggle="collapse" data-target="#dictionary">Dictionary <span class="caret"></span></button>
+          <div class="list-group collapse" id="dictionary">
             {% for item in site.data.menu %}
               <a class="list-group-item {% if page.url == item.link %}active{% endif %}" href="{{item.link}}">{{item.title}}</a>
             {% endfor %}
@@ -47,7 +47,7 @@
           <!-- FOOTER  -->
           <div id="desktop-footer" class="outer footer">
             {% if site.github.is_project_page %}
-            <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+            <p class="copyright">{{ site.title | default: site.github.repository_name }} is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
             {% endif %}
             <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
           </div>
@@ -85,7 +85,7 @@
     </div>
     <div id="mobile-footer" class="outer footer">
       {% if site.github.is_project_page %}
-      <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+      <p class="copyright">{{ site.title | default: site.github.repository_name }} is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
       {% endif %}
       <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
     </div>
