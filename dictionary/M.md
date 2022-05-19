@@ -10,7 +10,7 @@ permalink: dictionary/M/
 ### MACLIB *(Macro Library)*
 > 💡 _Think of `.h` header files in C._
 
-* Is as a partitioned data set that contains macros or utility assembly programs.
+* This is a partitioned data set that contains macros or utility assembly programs.
 
 ### Macro
 > 💡 _Think of `.h` header files in C._
@@ -29,6 +29,9 @@ permalink: dictionary/M/
 
 ### microcode
 * This is a synonym for firmware.
+
+### Monoplex
+* A monoplex is a type of sysplex that contains only one z/OS. In short, a monoplex is a single z/OS that uses a sysplex couple data set. 
 
 ### MVS *(Multiple Virtual Storage)*
 * Refers to an older version of z/OS. However, MVS is still used to refer to the z/OS system.

@@ -11,10 +11,10 @@ permalink: dictionary/Z/
 * Special purpose processor designed specifically for handling Java and XML workloads.
 
 ### zCX *(z/OS Container Extensions)*
-* z/OS capabilities that allows a Linux address space to be run within a z/OS LPAR that is delegated to running Dockerized workloads.
+* z/OS capability that allows a Linux address space to be run within a z/OS LPAR that is delegated to running Dockerized workloads.
 
 ### zEDC *(zEnterprise Data Compression)*
-* coprocessor or part of CPU dedicated to offloading data compression.
+* This is a coprocessor or part of a mainframe CPU dedicated to offloading data compression.
 
 ### ZFS *(System z File System)*
 * ZFS is the successor to HFS. ZFS allows multilevel security to be implemented and one ZFS can contain more than one logical file system.
@@ -36,7 +36,7 @@ permalink: dictionary/Z/
 
 ### zVM
 > 💡 _Think of KVM, VMWare, and VirtualBox._
-* This is the hypervisor/virtual machine runtime for the mainframe.
+* This is the hypervisor/virtual machine runtime for the mainframe. Note that KVM also runs on the mainframe.
 
 ### zVSE *(z Virtual Storage Extended)*
-* This is a light-weight version of z/OS used for transaction and batch processing Users of zVSE eventually upgrade to z/OS.
+* This is a light-weight version of z/OS used for transaction and batch processing. Users of zVSE eventually upgrade to z/OS.

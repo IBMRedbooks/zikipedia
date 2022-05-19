@@ -8,7 +8,7 @@ permalink: dictionary/B/
 &nbsp;
 
 ### Batch
-> 💡 _The antivirus that runs on your PC can be thought of as a batch workload_
+> 💡 _The antivirus that runs in the background on your PC can be thought of as a batch workload_
 
 * A large task or unit of work that takes a long time to complete and is run in the background.
 

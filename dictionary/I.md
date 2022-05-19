@@ -8,7 +8,7 @@ permalink: dictionary/I/
 &nbsp;
 
 ### ICSF *(Integrated Cryptographic Facility)*
-> 💡 _Like the graphics card you install on your PC but instead of being optimized for foating point operations crypto cards are optimized for doing cryptography._
+> 💡 _Like the graphics card you install on your PC but instead of being optimized for foating point operations, crypto cards are optimized for doing cryptography._
 
 * z/OS component that provides the interface to the crypto cards on the system.
 

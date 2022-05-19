@@ -32,13 +32,13 @@ permalink: dictionary/S/
 ### SLA *(Service Level Agreement)*
 > 💡 _This is just something that a business guarantees to the user._
 
-* Obligations that banks and enterprises have for their customers. *(i.e. All credit card transaction are guaranteed to take 8 ms)*
+* Obligations that banks and enterprises have for their customers. *(i.e. All credit card transactions are guaranteed to take 8 ms)*
 
 ### Slot
-* This is a 4 kilobytes page of auxiliary storage/memory, meaning that this is storage/memory that has been swapped out disk due to inactivity.
+* This is a 4 kilobytes page of auxiliary storage/memory, meaning that this is storage/memory that has been swapped out to disk due to inactivity.
 
 ### SIE *(Set Interpretive Execution)*
-* This is a special assembly instruction used to give control to a virtual machine guest. In general, this instructuon enables secure machine virtualization on the platform.
+* This is a special assembly instruction used to give control to a virtual machine guest. In general, this instructuon enables secure machine virtualization on s390x architecture.
 
 ### Single CSECT Module
 * This is a load module that is composed of only one segment or control section.
@@ -75,10 +75,15 @@ permalink: dictionary/S/
 ### SMS *(System Managed Storage)*
 * This is a component used to automate the management of DASD and storage on z/OS.
 
+### SMT *(Simultaneous Multithreading)*
+> 💡 _This is similar to the hyperthreading capabilities that are supported on many Intel processors._
+
+* Simultaneous multithreading allows two threads to be handled on one processor core. This feature is supported on IFL and zIIP processors.
+
 ### SNA *(Systems Network Architecture)*
 > 💡 _Think TCP/IP._
 
-* This is a networking protocol.
+* This is a networking protocol. A key difference between SNA and TCP/IP is that a session must first be established before two servers can communicate.
 
 ### SRB *(Service Request Block)*
 * This is a block of memory that represents a request to the system for a system service.
@@ -113,10 +118,10 @@ permalink: dictionary/S/
 * The person who manages the system. The system programmer's job is to install software updates and patches, configure the system, and request hardware resources.
 
 ### SYSIN
-* This is the input data set for a JCL job step.
+* This is the input data set/file for a JCL job step.
 
 ### SYSOUT
-* This is the output data set for a JCL job step.
+* This is the output data set/file for a JCL job step.
 
 ### SYS1
 * This is where all of the system data sets are stored *(MACLIB, LPALIB, LINKLIB, etc...)*.

@@ -13,14 +13,14 @@ permalink: dictionary/D/
 * This is a z/OS hardware capability that allows the user's virtual addresses to be translated into real addresses when interpreted by the processor.
 
 ### Data Set
-> 💡 _A data set is functionaly the same as a Unix file even though data sets are structurally different from Unix files._
+> 💡 _In general, a data set is functionaly the same as a Unix file even though data sets are structurally different from Unix files._
 
 * Functionally speaking, a data set is just a file.
 
 ### DASD *(Direct Access Storage Device)*
 > 💡 _This is like the z/OS version of the SSDs and hard drives you use on your PC._
 
-* A disk device.
+* A disk/storage device.
 
 ### DB2
 > 💡 _Note that DB2 is optimized to leverage z/OS capabilities._
@@ -43,7 +43,7 @@ permalink: dictionary/D/
 * Part of DFSMS that provides utilities for copying and moving data.
 
 ### DFSMShsm *(DFSMS Hierarchical Storage Manager)*
-* Data storage technique that moves data between low and high cost storage devices. DFSMShsm also backup and disaster recovery capabilities.
+* Data storage technique that moves data between low and high cost storage devices. DFSMShsm also provides backup and disaster recovery capabilities.
 
 ### DFSMSrmm 
 * Part of DFSMS that provides functions for managing tape.

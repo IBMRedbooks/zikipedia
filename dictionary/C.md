@@ -35,11 +35,14 @@ permalink: dictionary/C/
 ### Control Instructions 
 * These are assembly language instructions that only intended for use by programs running as part of the operating system.
 
+### Couple Data Set
+* This is a data set managed by the coupling facility in a sysplex that can be shared by all or some of the z/OS systems in the sysplex.
+
 ### CP (Central Processor)
 * This term term is used to refer to a general purpose mainframe processor that is not specialized or delegated for running any particular type of workload.
 
 ### CPACF *(CP Assist for Cryptographic Functions)*
-* This is specicailized cryptographic hardware built into mainframe processors fast and low cost encryption to be done on the processor. This mechanism is used to enable pervasive encryption.
+* This is specicailized cryptographic hardware built into mainframe processors that allow fast and low cost encryption to be done on the processor. This mechanism is used to enable pervasive encryption.
 
 ### CPC *(Central Processing Complex)*
 > 💡 _Think of the motherboard in your PC. It has a CPU socket and a few DIMM card slots. A mainframe has multiple draws that each contain multiple CPU sockets and dozens or DIMM card slots._
@@ -49,7 +52,10 @@ permalink: dictionary/C/
 ### CSECT *(Control Section)*
 * This is a low level mechanism for segmenting a link edited program.
 
-### CYL *(Cylinder)*
-> 💡 _This is can be thought of as an alternative to bytes in the same way that Farenheit is an alternative to Celcius._
+### CSS *(Channel Subsystem)*
+* The Channel Subsystem is used to manage the allocation of I/O devices such as disks and tapes to the operating system.
 
-* This is a metric for measuring the amount of data store on DASD disks. This unit refers to the physical size of the cylinders on the DASD disk drives.
+### CYL *(Cylinder)*
+> 💡 _This can be thought of as an alternative to bytes in the same way that Farenheit is an alternative to Celcius._
+
+* This is a metric for measuring the amount of data stored on DASD disks. This unit refers to the physical size of the cylinders on the DASD disk drives.

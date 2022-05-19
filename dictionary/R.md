@@ -22,7 +22,7 @@ permalink: dictionary/R/
 * Real physical view of storage/memory accessible to an LPAR. There is no abstraction or logical view in this context. In other words, real storage is storage/memory as the z/OS operating system running on an LPAR sees it.
 
 ### RECFM *(Record Format)*
-> _Think of punch cards. A punch card represents one line or stream of bytes that contains 80 characters or bytes. So, if you were to read a series of punch cards into a data set, you would define the record format of that data set as **fixed (F)** or **fixed blocked (FB)** since each punch card has a fixed length of 80 characters of bytes per record or line._
+> _Think of punch cards. A punch card represents one line or stream of bytes that contains 80 characters/bytes. So, if you were to read a series of punch cards into a data set, you would define the record format of that data set as **fixed (F)** or **fixed blocked (FB)** since each punch card has a fixed length of 80 characters/bytes per record/line._
 
 * This is a data set attribute that defines how data is organized in a data set.
 
@@ -32,7 +32,7 @@ permalink: dictionary/R/
 ### RELFILE *(Relative File)*
 > 💡 _Think of the metadata files that come with a Python or Debian package._
 
-* These are the files that describet the layout of a product so that SMP/E knows how to find and install the files contained in the product.
+* These are the files that describe the layout of a product so that SMP/E knows how to find and install the files contained in the product.
 
 ### Rexx *(Restructured Extended Executor)*
 > 💡 _Rexx is a lot like Python._
@@ -45,7 +45,7 @@ permalink: dictionary/R/
 ### RMODE *(Residency Mode)*
 > 💡 _Think 32 bit and 64 bit intel._
 
-* Defines what address ranges a program can run in (i.e. 24 bit, 31 bit 64 bit). For example, a RMODE24 program cannot run in an area in memroy that is not addressable with 24 bits.
+* Defines what address ranges a program can run in (i.e. 24 bit, 31 bit 64 bit). For example, a RMODE24 program cannot run in an area in memroy/storage that is not addressable with 24 bits.
 
 ### RRDS *(Relative Record Data Set)*
 > 💡 _This is functionally similar to an array in high level programming languages where elements are accessed by their index._

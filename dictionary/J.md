@@ -16,7 +16,7 @@ permalink: dictionary/J/
 * This is the metadata that is specified at the top of a JCL job. Note the JCL Job Header can be important for auditing purposes.
 
 ### JCLIN *(JCL In)*
-* This is JCL used to get a product installed as runnable on the system. In other words, the JCLIN finishes the install of a product on the system.
+* In SMP/E, this is JCL used to get a product installed as runnable on the system. In other words, the JCLIN finishes the install of a product on the system.
 
 ### JES *(Job Entry Subsystem)*
 * Component of z/OS that manages jobs or work that is submitted for the system to process.

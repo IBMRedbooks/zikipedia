@@ -30,7 +30,7 @@ permalink: dictionary/L/
 * An IBMZ mainframe built specifically for running Linux.
 
 ### Listing
-* This is the metadata that is produced by the copiler about the built binary object.
+* This is the metadata that is produced by the compiler about the built binary object. In other words, a listing decribes everything that happened during compilation in great detail. Listings can be useful for debugging since they give insight into how a binary was built/compiled.
 
 ### LLQ *(Low Level Qualifier)*
 > 💡 _Think of the the last `/` delimited segment in a Linux path (`/home/user/hello.txt`)_
@@ -55,3 +55,6 @@ permalink: dictionary/L/
 > 💡 _Think of punch cards. A punch card, which represents one record or line can only contain 80 characters._
 
 * This is the maximum size that one line or stream of data can be in a data set. For example, a data set with a Logical Record Length of 80 allows only 80 bytes or characters to be written to one record or line.
+
+### LU *(Logical Unit)*
+* A logical unit is the SNA version of a TCP/IP port.

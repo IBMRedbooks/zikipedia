@@ -7,6 +7,7 @@
 ```markdown
 ### ACRONYM/Term *(Expanded Acronym if necessary)*
 > > 💡 _Try to tie the ACRONYM/Term to something someone new to z/OS already knows to help demystify the concept._
+
 * Give a clear and concise definition. Use terminology and concepts that someone who it new already might understand.
 ```
 * The dictionary must be kept alphabetized.
