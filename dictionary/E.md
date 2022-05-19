@@ -21,4 +21,4 @@ permalink: dictionary/E/
 * A VSAM data set that is organized sequentially, which means that each record must be accessed one at a time starting with the first record.
 
 ### ESM *(External Security Manager)*
-* These are the security products that maintain the security policies for the system. *(RACF/ACF2/TOP SECRET)*
+* These are the security products that maintain the security policies for the system *(RACF/ACF2/TOP SECRET)*.

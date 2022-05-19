@@ -36,10 +36,12 @@ permalink: dictionary/R/
 
 ### Rexx *(Restructured Extended Executor)*
 > 💡 _Rexx is a lot like Python._
+
 * High level programming language developed at IBM UK.
 
 ### RMF *(Resource Measurement Facility)*
 > 💡 _Think of **Task Manager** on Windows._
+
 * Optional z/OS product used for measuring system performance.
 
 ### RMODE *(Residency Mode)*
