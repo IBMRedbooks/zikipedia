@@ -58,3 +58,6 @@ permalink: dictionary/D/
 
 ### DSN *(Data Set Name)*
 * The name of a data set.
+
+### DYNALLOC *(Dynamic Allocation)*
+* TODO

@@ -31,6 +31,9 @@ permalink: dictionary/P/
 ### part 
 * This is a term used to refer to a file or a member of a partitioned data set.
 
+### Pervasive Encryption
+* This is a z/OS capability that allows all data in flight and at rest to be encrypted transparently. The CPACF, which is a cryptographic excelerator on s390x CPUs encrypts and decrypts data at the processor, meaning that data is only decrypted when in use by the processor or when loaded into storage/memory.
+
 ### PDS *(Partitioned Data Set)*
 > 💡 _Like the z/OS version of Unix folder._
 

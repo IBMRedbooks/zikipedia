@@ -7,7 +7,7 @@ permalink: dictionary/U/
 
 &nbsp;
 
-### User Catalog
+### UCAT *(User Catalog)*
 * This is the user's personal catalog that is used for data set lookup. It inherits from the master catalog and defines data sets and volumes specific to the user.
 
 ### Usermod 

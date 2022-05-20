@@ -43,6 +43,9 @@ permalink: dictionary/I/
 ### IODF *(Input/Output Definition File)*
 * A VSAM linear data set that contains I/O configuration information for processors, operating systems, and all logical entities.
 
+### IOPS *(InputOutput Operations Per Second)*
+* This is a unit for measuring the performance of disk I/O.
+
 ### IOS *(Input/Output Supervisor)*
 * z/OS component that provides diagnostic data for I/O devices.
 

@@ -17,7 +17,7 @@ permalink: dictionary/M/
 
 * A macro is a utility assembly program that can be used by other programs.
 
-### Master Catalog
+### MCAT *(Master Catalog)*
 > 💡 _In order to find data sets on the system a catalog needs to be used for lookup since data sets are not stored in a hierarchical file system)_
 
 * System wide catalog for maintaining information about where to find DASD volumes and data sets.
@@ -27,8 +27,11 @@ permalink: dictionary/M/
 
 * One logical file that is a member of a partitioned data set.
 
-### microcode
+### Microcode
 * This is a synonym for firmware.
+
+### MIPS *(Million Instructions Per Second)*
+* This is a unit that is often used to measure mainframe CPU processing power.
 
 ### Monoplex
 * A monoplex is a type of sysplex that contains only one z/OS. In short, a monoplex is a single z/OS that uses a sysplex couple data set. 

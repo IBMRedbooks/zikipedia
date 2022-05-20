@@ -27,7 +27,7 @@ permalink: dictionary/R/
 * This is a data set attribute that defines how data is organized in a data set.
 
 ### Record
-* Data sets are composed of a series lines or records. This is different from Unix files which are just byte streams that use the `/n` character to indicate the start of a new line. For data sets, however, lines/records are an architected data structure. When a user reads or writes to a data set, the operating system treats and interprets all of the lines as individual lines/records that make up the entire data set instead of a contiguous byte streams like on Unix based systems.
+* Data sets are composed of a series lines or records. This is different from Unix files which are just byte streams that use the `\n` character to indicate the start of a new line. For data sets, however, lines/records are an architected data structure. When a user reads or writes to a data set, the operating system treats and interprets all of the lines as individual lines/records that make up the entire data set instead of a contiguous byte streams like on Unix based systems.
 
 ### RELFILE *(Relative File)*
 > 💡 _Think of the metadata files that come with a Python or Debian package._
