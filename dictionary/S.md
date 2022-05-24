@@ -91,6 +91,9 @@ permalink: dictionary/S/
 ### Storage
 * This is not disk. This is actually memory/RAM.
 
+### SUP
+* In SMP/E, SUP is specified as part of the ++VER SMPMCS statement to define an FMID/product that the FMID/product being installed supercedes/replaces.
+
 ### Supervisor
 * The Kernel of z/OS.
 

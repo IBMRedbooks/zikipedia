@@ -34,6 +34,9 @@ permalink: dictionary/R/
 
 * These are the files that describe the layout of a product so that SMP/E knows how to find and install the files contained in the product.
 
+### REQ
+* In SMP/E, REQ is specified as part of the ++VER SMPMCS statement to define an FMID/product that the FMID/product being installed requires.
+
 ### Rexx *(Restructured Extended Executor)*
 > 💡 _Rexx is a lot like Python._
 
