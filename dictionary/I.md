@@ -57,5 +57,9 @@ permalink: dictionary/I/
 
 * Used to refer to doing a cold start of the system.
 
+### IPLPARM 
+* Initial configuration file for z/OS IPL. Must be convention SYS*.IPLPARM.
+
+
 ### ISPF *(Interactive System Productivity Facility)*
 * A menu driven system for interacting with z/OS.
