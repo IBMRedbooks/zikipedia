@@ -26,21 +26,28 @@
           <br>
           <div class="list-group">
             <a class="list-group-item" href="/zikipedia/">Home</a>
-            <a class="list-group-item" href="https://github.com/IBMRedbooks/USSCheatSheet/blob/main/USSCheatSheet.md">USS Cheat Sheet</a>
             {% if site.github.is_project_page %}
               <a class="list-group-item" id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub/Contribute</a>
             {% endif %}
           </div>
+          <br>
+          <button type="button" class="btn" data-toggle="collapse" data-target="#additional-resources">Additional Resources <span class="caret"></span></button>
+          <br>
+          <div class="list-group collapse" id="additional-resources">
+            {% for item in site.data.additional_resources %}
+              <a class="list-group-item {% if page.url == item.link %}active{% endif %}" href="{{item.link}}">{{item.title}}</a>
+            {% endfor %}
+          </div>
+          <br>
           {% if site.show_downloads %}
             <section id="downloads">
               <a class="zip_download_link" href="{{ site.github.zip_url }}">Download this project as a .zip file</a>
               <a class="tar_download_link" href="{{ site.github.tar_url }}">Download this project as a tar.gz file</a>
             </section>
           {% endif %}
-          <br>
           <button type="button" class="btn" data-toggle="collapse" data-target="#dictionary">Dictionary <span class="caret"></span></button>
           <div class="list-group collapse" id="dictionary">
-            {% for item in site.data.menu %}
+            {% for item in site.data.dictionary %}
               <a class="list-group-item {% if page.url == item.link %}active{% endif %}" href="{{item.link}}">{{item.title}}</a>
             {% endfor %}
           </div>

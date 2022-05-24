@@ -53,6 +53,9 @@ permalink: dictionary/P/
 ### POR *(Power On Reset)*
 * A way of making configuration changes to the system without restarting it.
 
+### PRE
+* In SMP/E, PRE is specified as part of the ++VER SMPMCS statement to define an FMID/product that the FMID/product being installed depends on and requires.
+
 ### Prefixing
 * This is a feature of ISPF that allows the high level qualifier for your user id to be prepended to all data set references when you don't surround the data set name in quotes.
 

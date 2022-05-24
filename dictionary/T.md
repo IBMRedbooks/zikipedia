@@ -25,6 +25,9 @@ permalink: dictionary/T/
 ### TLB *(Translation Lookaside Buffer)*
 * This is an 'address translation cache' that keeps track of translations from virtual to real storage addresses. This is used by the CPU to find virtual storage/memory that a user program is referencing.
 
+### TNZ
+* A python based 3270 terminal emulator that runs in your operating system's native command line terminal.
+
 ### Track
 > 💡 _This can be thought of as an alternative to bytes in the same way that Farenheit is an alternative to Celcius._
 
