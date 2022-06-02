@@ -1,3 +1,23 @@
+# Running Zikipedia on `localhost` *(your workstation)*
+* Install the **[Ruby Programming Language](https://www.ruby-lang.org/en/)**
+
+* Install dependencies:
+```shell
+gem install jekyll
+gem install bundler
+bundle install .
+bundle update .
+```
+
+* Start Zikipedia on `localhost`.
+```shell
+bundle exec jekyll serve
+```
+
+&nbsp;
+
+&nbsp;
+
 # Contribution Guidelines
 
 &nbsp;
