@@ -243,9 +243,14 @@ h1, h2, h3, h4, h5, h6
 }
 
 .highlight {
-  background-color: #333; 
+  background-color: #334;
+  color: #bbb;
+  margin-top: 10px;
   border: none;
   border-radius: 10px;
+}
+.highlight .o {
+  color: #fff;
 }
 
 header ul li + li + li {
