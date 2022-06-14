@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 <div id="mobile-z16-image">
