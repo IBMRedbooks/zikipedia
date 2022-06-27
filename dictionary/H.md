@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: dictionary/H/
+parent: Dictionary
 ---
 
 # H

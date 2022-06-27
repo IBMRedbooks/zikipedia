@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <div id="main-header" class="main-header"> <div class="search"> <div class="search-input-wrap"> <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Zikipedia" aria-label="Search Zikipedia" autocomplete="off"> <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label> </div> <div id="search-results" class="search-results"></div> </div> </div>
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
+          <p id="project_tagline">{{ site.description | default: site.github.project_tagline }}</p>
+          <a class="image-link" href="{{ "/" | absolute_url }}">
+            {% if site.logo %}
+              <img src="{{site.logo | relative_url}}" alt="Logo" />
+            {% endif %}
+          </a>
+          {% if site.show_downloads %}
+            <section id="downloads">
+              <a class="zip_download_link" href="{{ site.github.zip_url }}">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="{{ site.github.tar_url }}">Download this project as a tar.gz file</a>
+            </section>
+          {% endif %}
+          <br>
+          <br>
+          <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <a class="accordion-button dictionary-button" data-toggle="collapse" data-parent="#accordion" href="#dictionary">
+                z/OS Dictionary <span class="caret"></span></a>
+              </div>
+              <div class="list-group collapse" id="dictionary">
+                {% for item in site.data.dictionary %}
+                  <a class="list-group-item {% if page.url == item.link %}active{% endif %}" href="{{item.link}}">{{item.title}}</a>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+          <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <a class="accordion-button" data-parent="#accordion" href="/zikipedia/">
+                Home</a>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <a class="accordion-button" data-toggle="collapse" data-parent="#accordion" href="#guides">
+                Guides <span class="caret"></span></a>
+              </div>
+              <div class="list-group collapse" id="guides">
+                {% for item in site.data.guides %}
+                  <a class="list-group-item {% if page.url == item.link %}active{% endif %}" href="{{item.link}}">{{item.title}}</a>
+                {% endfor %}
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <a class="accordion-button" data-toggle="collapse" data-parent="#accordion" href="#references">
+                References <span class="caret"></span></a>
+              </div>
+              <div class="list-group collapse" id="references">
+                {% for item in site.data.references %}
+                  <a class="list-group-item {% if page.url == item.link %}active{% endif %}" href="{{item.link}}">{{item.title}}</a>
+                {% endfor %}
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <a class="accordion-button" data-toggle="collapse" data-parent="#accordion" href="#additional-resources">
+                Additional Resources <span class="caret"></span></a>
+              </div>
+              <div class="list-group collapse" id="additional-resources">
+                {% for item in site.data.additional_resources %}
+                  <a class="list-group-item {% if page.url == item.link %}active{% endif %}" href="{{item.link}}">{{item.title}}</a>
+                {% endfor %}
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                {% if site.github.is_project_page %}
+                  <a class="accordion-button" data-parent="#accordion" href="{{ site.github.repository_url }}">
+                  View on GitHub/Contribute</a>
+                {% endif %}
+              </div>
+            </div>
+          </div> 
+          <!-- FOOTER  -->
+          <div id="desktop-footer" class="outer footer">
+            {% if site.github.is_project_page %}
+            <p class="copyright">{{ site.title | default: site.github.repository_name }} is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+            {% endif %}
+            <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+          </div>
+        </header>
+    </div>
+
+    <style>
+      nav ul {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        align-items: flex;
+        list-style: none;
+      }
+      nav ul li {
+        margin-right: 10px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        text-decoration: underline;
+      }
+      .active {
+        text-decoration: underline;
+      }
+    </style>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        {{ content }}
+      </section>
+    </div>
+    <div id="mobile-footer" class="outer footer">
+      {% if site.github.is_project_page %}
+      <p class="copyright">{{ site.title | default: site.github.repository_name }} is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+      {% endif %}
+      <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+    </div>
+  </body>
+</html>
+
