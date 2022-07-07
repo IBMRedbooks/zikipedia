@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/zikipedia" # the subpath of your site, e.g. /blog
 url: "https://ibmredbooks.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: pretty
-#logo: /assets/img/logo.jpg
+# logo: "/assets/img/logo.jpg"
 
 # Build settings
 theme: "just-the-docs"
@@ -46,6 +46,15 @@ search.tokenizer_separator: /[\s/]+/
 search.rel_url: false
 
 search.button: true
+
+# Aux links for the upper right navigation
+aux_links:
+  "View/Contribute on GitHub":
+    - "https://github.com/IBMRedbooks/zikipedia"
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: True
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

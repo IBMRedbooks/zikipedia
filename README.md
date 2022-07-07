@@ -39,17 +39,11 @@ bundle exec jekyll serve
 
 * The Guides markdown files are maintained in the **[`guides`](guides)** folder.
 
-* If you are contributing a new guide, **[`_data/guides.yml`](_data/guides.yml)** should be updated with the link to the new guide. This list should be kept alphabetized.
-```yaml
-- title: "My New Guide"
-  link: /guides/my_new_guide/
-```
-
-* New guides should include a metadata section at the top of the markdown file that defines the link to the new guide.
+* New guides must include a metadata section at the top of the markdown file that defines the markdown file as a guide.
 ```markdown
 ---
 layout: default
-permalink: references/my_new_guide/
+parent: Guides
 ---
 ```
 
@@ -59,17 +53,11 @@ permalink: references/my_new_guide/
 
 * The References markdown files are maintained in the **[references](references)** folder.
 
-* If you are contributing a new reference, **[`_data/references.yml`](_data/references.yml)** should be updated with the link to the new reference. This list should be kept alphabetized.
-```yaml
-- title: "My New Reference"
-  link: /references/my_new_reference/
-```
-
 * New referencs should include a metadata section at the top of the markdown file that defines the link to the new reference.
 ```markdown
 ---
 layout: default
-permalink: references/my_new_reference/
+parent: References
 ---
 ```
 
