@@ -1,10 +1,11 @@
 ---
 layout: default
-permalink: dictionary/M/
+parent: Dictionary
 ---
 
 # M
 
+<hr>
 &nbsp;
 
 ### MACLIB *(Macro Library)*

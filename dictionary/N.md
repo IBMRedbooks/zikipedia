@@ -1,10 +1,11 @@
 ---
 layout: default
-permalink: dictionary/N/
+parent: Dictionary
 ---
 
 # N
 
+<hr>
 &nbsp;
 
 ### NAS:

@@ -1,10 +1,11 @@
 ---
 layout: default
-permalink: dictionary/H/
+parent: Dictionary
 ---
 
 # H
 
+<hr>
 &nbsp;
 
 ### HCD *(Hardware Control Definition)*

@@ -1,10 +1,11 @@
 ---
 layout: default
-permalink: dictionary/R/
+parent: Dictionary
 ---
 
 # R
 
+<hr>
 &nbsp;
 
 ### RACF *(Resource Access Control Facility)*

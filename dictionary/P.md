@@ -1,10 +1,11 @@
 ---
 layout: default
-permalink: dictionary/P/
+parent: Dictionary
 ---
 
 # P
 
+<hr>
 &nbsp;
 
 ### Page

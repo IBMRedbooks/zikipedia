@@ -1,10 +1,11 @@
 ---
 layout: default
-permalink: dictionary/D/
+parent: Dictionary
 ---
 
 # D
 
+<hr>
 &nbsp;
 
 ### DAT *(Dynamic Address Translation)*

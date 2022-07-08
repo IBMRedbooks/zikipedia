@@ -1,10 +1,11 @@
 ---
 layout: default
-permalink: dictionary/L/
+parent: Dictionary
 ---
 
 # L
 
+<hr>
 &nbsp;
 
 ### LE *(Link Edit)*

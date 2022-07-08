@@ -1,9 +1,12 @@
 ---
 layout: default
-permalink: dictionary/G/
+parent: Dictionary
 ---
 
 # G
+
+<hr>
+&nbsp;
 
 ### Green Screen
 > 💡 _Think of SSH._

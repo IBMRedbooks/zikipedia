@@ -1,10 +1,11 @@
 ---
 layout: default
-permalink: dictionary/B/
+parent: Dictionary
 ---
 
 # B
 
+<hr>
 &nbsp;
 
 ### Batch

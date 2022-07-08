@@ -1,10 +1,11 @@
 ---
 layout: default
-permalink: dictionary/X/
+parent: Dictionary
 ---
 
 # X
 
+<hr>
 &nbsp;
 
 ### XCF *(cross-system Coupling Facility)*

@@ -1,10 +1,11 @@
 ---
 layout: default
-permalink: dictionary/A/
+parent: Dictionary
 ---
 
 # A
 
+<hr>
 &nbsp;
 
 ### ABEND *(Abnormal End)*

@@ -1,10 +1,11 @@
 ---
 layout: default
-permalink: dictionary/K/
+parent: Dictionary
 ---
 
 # K
 
+<hr>
 &nbsp;
 
 ### KSDS *(Key Sequence Data Set)*

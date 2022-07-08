@@ -1,10 +1,11 @@
 ---
 layout: default
-permalink: dictionary/E/
+parent: Dictionary
 ---
 
 # E
 
+<hr>
 &nbsp;
 
 ### EAV *(Extended Address Volume)*

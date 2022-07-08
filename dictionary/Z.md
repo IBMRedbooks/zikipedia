@@ -1,10 +1,11 @@
 ---
 layout: default
-permalink: dictionary/Z/
+parent: Dictionary
 ---
 
 # Z
 
+<hr>
 &nbsp;
 
 ### ZAAP *(System Z Application Assist Processor)*

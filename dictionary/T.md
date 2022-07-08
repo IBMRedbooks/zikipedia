@@ -1,10 +1,11 @@
 ---
 layout: default
-permalink: dictionary/T/
+parent: Dictionary
 ---
 
 # T
 
+<hr>
 &nbsp;
 
 ### Tape

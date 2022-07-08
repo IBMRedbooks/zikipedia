@@ -1,10 +1,11 @@
 ---
 layout: default
-permalink: dictionary/C/
+parent: Dictionary
 ---
 
 # C
 
+<hr>
 &nbsp;
 
 ### CB *(Control Block)*

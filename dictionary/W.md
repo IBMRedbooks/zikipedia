@@ -1,10 +1,11 @@
 ---
 layout: default
-permalink: dictionary/W/
+parent: Dictionary
 ---
 
 # W
 
+<hr>
 &nbsp;
 
 ### WLM *(Work Load Manager)*

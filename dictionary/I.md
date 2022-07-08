@@ -1,10 +1,11 @@
 ---
 layout: default
-permalink: dictionary/I/
+parent: Dictionary
 ---
 
 # I
 
+<hr>
 &nbsp;
 
 ### ICSF *(Integrated Cryptographic Facility)*

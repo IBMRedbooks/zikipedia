@@ -1,10 +1,11 @@
 ---
 layout: default
-permalink: dictionary/S/
+parent: Dictionary
 ---
 
 # S
 
+<hr>
 &nbsp;
 
 ### SAF *(System Authorization Facility)*
