@@ -23,7 +23,7 @@ permalink: pretty
 # logo: "/assets/img/logo.jpg"
 
 # Build settings
-theme: "just-the-docs"
+remote_theme: just-the-docs/just-the-docs@main
 include:
   - contribute.markdown
 color_scheme: dark
