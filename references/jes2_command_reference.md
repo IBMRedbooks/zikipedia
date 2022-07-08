@@ -5,6 +5,7 @@ parent: References
 
 # JES2 Command Reference
 
+<hr>
 &nbsp;
 
 | **Command** | **What it does** | 

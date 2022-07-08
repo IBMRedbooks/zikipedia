@@ -7,5 +7,5 @@ permalink: /dictionary
 
 # Dictionary
 
-A collection of useful z/OS-related definitions!  
+Use this dictionary to demystify all of th jargon that mainframers use to describe z/OS concepts, components, and tools.
 {: .fs-6 .fw-300 }

@@ -5,6 +5,7 @@ parent: Dictionary
 
 # L
 
+<hr>
 &nbsp;
 
 ### LE *(Link Edit)*

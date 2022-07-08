@@ -39,7 +39,7 @@
     background-color: #334;
 }
 
-.search-result:hover {
+.search-result:hover, hr {
     background-color: #445;
 }
 
@@ -260,9 +260,12 @@ img {
     border-bottom: 1px solid #445;
 }
 
+.main {
+    padding-bottom: 40px;
+}
+
 .site-footer {
     text-align: center;
-    margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 1000px) {

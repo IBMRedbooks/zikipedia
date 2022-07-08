@@ -5,6 +5,9 @@ parent: Guides
 
 # ZFS is Out of Space
 
+<hr>
+&nbsp;
+
 So, someone just came to you complaining that their ZFS is out of space.  Here is a nifty utility that you can use to bump the ZFS up.
 
 <br>

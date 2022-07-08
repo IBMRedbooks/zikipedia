@@ -5,6 +5,7 @@ parent: Dictionary
 
 # D
 
+<hr>
 &nbsp;
 
 ### DAT *(Dynamic Address Translation)*

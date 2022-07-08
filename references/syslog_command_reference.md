@@ -5,6 +5,7 @@ parent: References
 
 # SYSLOG Command Reference
 
+<hr>
 &nbsp;
 
 | **Command** | **What it does** | 

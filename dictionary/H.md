@@ -5,6 +5,7 @@ parent: Dictionary
 
 # H
 
+<hr>
 &nbsp;
 
 ### HCD *(Hardware Control Definition)*

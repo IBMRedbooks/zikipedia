@@ -15,16 +15,16 @@ layout: page
     <h2>How to use Zikipedia</h2>
 
     <h3>z/OS Dictionary</h3>
-      <p>To look up an acronym open the blue dropdown labeled <i>'z/OS Dictionary'</i> and select the letter that the term/acronym you are looking for starts with.</p>
+      <p>To look up an acronym open the blue dropdown labeled <i><b>Dictionary</b></i> and select the letter that the term/acronym you are looking for starts with.</p>
 
     <h3>Guides</h3>
-      <p>Step by step guides for solving problems and exploiting the capabilities of the z/OS platform.</p>
+      <p>The dropdown labeled <i><b>Guides</b></i> contains a collection of step by step guides for solving problems and exploiting the capabilities of the z/OS platform.</p>
 
     <h3>References</h3>
-      <p>Collection of z/OS command references.</p>
+      <p>The dropdown labeled <i><b>References</b></i> contains a collection of z/OS command references.</p>
 
     <h3>Additional Resources</h3>
-      <p>The dropdown labeled <i>'Additional Resources'</i> contains links to resources external to this site such as the ZOAU documentation and the IBMZ/LinuxOne Container Registry index.</p>
+      <p>The dropdown labeled <i><b>Additional Resources</b></i> contains links to resources external to this site such as the ZOAU documentation and the IBMZ/LinuxOne Container Registry index.</p>
 
     <h3>View on Github/Contribute</h3>
      <p>Feel free to take a look at the <a href="https://github.com/IBMRedbooks/zikipedia">GitHub Repository</a> that hosts this site. If you have any ideas or suggestions, feel free to make a contribution following the <a href="https://github.com/IBMRedbooks/zikipedia/blob/main/README.md">Contribution Guidelines</a>.</p>

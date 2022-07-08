@@ -5,6 +5,7 @@ parent: Dictionary
 
 # T
 
+<hr>
 &nbsp;
 
 ### Tape

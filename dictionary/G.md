@@ -5,6 +5,9 @@ parent: Dictionary
 
 # G
 
+<hr>
+&nbsp;
+
 ### Green Screen
 > 💡 _Think of SSH._
 

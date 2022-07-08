@@ -5,6 +5,7 @@ parent: Dictionary
 
 # F
 
+<hr>
 &nbsp;
 
 ### Fetch Protection Bit

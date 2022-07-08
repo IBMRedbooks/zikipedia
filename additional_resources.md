@@ -7,6 +7,10 @@ permalink: /additional_resources
 
 # Additional Resources
 
+Links to resources external to this site such as the ZOAU documentation and the IBMZ/LinuxOne Container Registry index.
+
+<hr>
+
 * [Ambitus](https://github.com/ambitus/)
 * [IBMZ/LinuxOne Container Registry](https://ibm.github.io/ibm-z-oss-hub/main/main.html)
 * [SMP/E Reference](https://www-40.ibm.com/servers/resourcelink/svc00100.nsf/pages/zOSV2R4sa232276/$file/gim2000_v2r4.pdf)

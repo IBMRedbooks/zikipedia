@@ -5,6 +5,7 @@ parent: Dictionary
 
 # S
 
+<hr>
 &nbsp;
 
 ### SAF *(System Authorization Facility)*
