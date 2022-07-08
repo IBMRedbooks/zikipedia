@@ -53,7 +53,7 @@ parent: Guides
 
 * The References markdown files are maintained in the **[references](references)** folder.
 
-* New referencs should include a metadata section at the top of the markdown file that defines the link to the new reference.
+* New referencs should include a metadata section at the top of the markdown file that defines the markdown file as a reference.
 ```markdown
 ---
 layout: default
