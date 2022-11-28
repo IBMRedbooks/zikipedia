@@ -30,7 +30,9 @@ parent: Dictionary
 * A python based 3270 terminal emulator that runs in your operating system's native command line terminal.
 
 ### Track
-> 💡 _This can be thought of as an alternative to bytes in the same way that Farenheit is an alternative to Celcius._
+
+{: .note }
+> _This can be thought of as an alternative to bytes in the same way that Farenheit is an alternative to Celcius._
 
 * This is a metric for measuring the amount of data stored on DASD disks. This unit refers to the physical size of the tracks on the DASD disk drives.
 

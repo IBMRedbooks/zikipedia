@@ -9,7 +9,9 @@ parent: Dictionary
 &nbsp;
 
 ### JCL *(Job Control Language)*
-> 💡 _JCL is functionaly similar to a shell script._
+
+{: .note }
+> _JCL is functionaly similar to a shell script._
 
 * A program that defines a series of programs to run. These programs are referred to as jobs and they are managed by JES *(Job Entry Subsystem)*.
 
