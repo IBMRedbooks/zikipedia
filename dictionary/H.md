@@ -15,7 +15,9 @@ parent: Dictionary
 * Linux-like file system on z/OS. Note that ZFS is the successor to HFS, which is more secure and scalable.
 
 ### HLASM *(High Level Assembler)*
-> 💡 _This is analogous to GNU and NASM assembly._
+
+{: .note }
+> _This is analogous to GNU and NASM assembly._
 
 * The Language and Assembler used for create assembly language programs on z/OS.
 

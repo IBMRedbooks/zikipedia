@@ -36,7 +36,9 @@ parent: Dictionary
 * This is a mainframe operating system optimized for high-throughput transaction processing.
 
 ### zVM
-> 💡 _Think of KVM, VMWare, and VirtualBox._
+
+{: .note }
+> _Think of KVM, VMWare, and VirtualBox._
 
 * This is the hypervisor/virtual machine runtime for the mainframe. Note that KVM also runs on the mainframe.
 

@@ -15,6 +15,8 @@ parent: Dictionary
 * This is a sysplex capability that enables high performance, high availability, and data sharing within a sysplex using the coupling facility.
 
 ### XLC
-> 💡 _Think `gcc` and `clang`._
+
+{: .note }
+> _Think `gcc` and `clang`._
 
 * This is a C compiler.

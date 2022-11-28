@@ -12,12 +12,16 @@ parent: Dictionary
 * This is the z/OS component that manages security on the system. All security requests go to SAF. SAF can be used alone, or it can more securely be used with a security manager like RACF, ACF2, or Top Secret.
 
 ### SDSF *(System Display and Search Facility)*
-> 💡 _Think of Task Manager on Windows._
+
+{: .note}
+> _Think of Task Manager on Windows._
 
 * A program that runs on MVS that shows jobs running and job output.
 
 ### SE *(Support Element)*
-> 💡 _this is the laptop connected to door on the mainframe box._
+
+{: .note}
+> _this is the laptop connected to door on the mainframe box._
 
 * This is the management console mounted directly to the z/OS box.
 
@@ -31,7 +35,9 @@ parent: Dictionary
 * This is a flat file on z/OS. In other words the data set represents only one file. For example, only one distinct program or entity can be written to a sequential data set.
 
 ### SLA *(Service Level Agreement)*
-> 💡 _This is just something that a business guarantees to the user._
+
+{: .note}
+> _This is just something that a business guarantees to the user._
 
 * Obligations that banks and enterprises have for their customers. *(i.e. All credit card transactions are guaranteed to take 8 ms)*
 
@@ -45,7 +51,9 @@ parent: Dictionary
 * This is a load module that is composed of only one segment or control section.
 
 ### SMP/E *(System Modification Program Extended)*
-> 💡 _This is analogus to the the package managers used on Linux like `apt-get`, `apk`, and `yum`._
+
+{: .note}
+> _This is analogus to the the package managers used on Linux like `apt-get`, `apk`, and `yum`._
 
 * SMP/E is used to manage the installation of z/OS software products and fixes.
 
@@ -77,12 +85,16 @@ parent: Dictionary
 * This is a component used to automate the management of DASD and storage on z/OS.
 
 ### SMT *(Simultaneous Multithreading)*
-> 💡 _This is similar to the hyperthreading capabilities that are supported on many Intel processors._
+
+{: .note}
+> _This is similar to the hyperthreading capabilities that are supported on many Intel processors._
 
 * Simultaneous multithreading allows two threads to be handled on one processor core. This feature is supported on IFL and zIIP processors.
 
 ### SNA *(Systems Network Architecture)*
-> 💡 _Think TCP/IP._
+
+{: .note}
+> _Think TCP/IP._
 
 * This is a networking protocol. A key difference between SNA and TCP/IP is that a session must first be established before two servers can communicate.
 
@@ -102,7 +114,9 @@ parent: Dictionary
 * A program that is running with operating system level privileges.
 
 ### SVC *(Supervisor Call)*
-> 💡 _Like syscall on Linux._
+
+{: .note}
+> _Like syscall on Linux._
 
 * This is a call/interrupt to have the system do something on the user program's behalf.
 
@@ -137,11 +151,15 @@ parent: Dictionary
 * This is a mechanism for synchronizing the clock of all members of a sysplex.
 
 ### SYSRES *(System Residence Volume)*
-> 💡 _Think of the hard drive or SSD that your PC boots from._
+
+{: .note}
+> _Think of the hard drive or SSD that your PC boots from._
 
 * This is the disk device where the operating system is loaded from.
 
 ### System Variable
-> 💡 _System Variables can be thought of as analogous to environment variables on Linux._
+
+{: .note}
+> _System Variables can be thought of as analogous to environment variables on Linux._
 
 * These are system defined global variables that can be used within JCL.

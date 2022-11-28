@@ -9,7 +9,9 @@ parent: Dictionary
 &nbsp;
 
 ### RACF *(Resource Access Control Facility)*
-> 💡 _RACF can be though of as the database that contains all of the securuity policies for the system. z/OS uses security policies in RACF to decide if someone requesting access to a resource should have access or not._
+
+{: .note }
+> _RACF can be though of as the database that contains all of the securuity policies for the system. z/OS uses security policies in RACF to decide if someone requesting access to a resource should have access or not._
 
 * This is a security manager for z/OS that maintains security policies that define who and what kind of access users have to resources on the system.
 
@@ -31,7 +33,9 @@ parent: Dictionary
 * Data sets are composed of a series lines or records. This is different from Unix files which are just byte streams that use the `\n` character to indicate the start of a new line. For data sets, however, lines/records are an architected data structure. When a user reads or writes to a data set, the operating system treats and interprets all of the lines as individual lines/records that make up the entire data set instead of a contiguous byte streams like on Unix based systems.
 
 ### RELFILE *(Relative File)*
-> 💡 _Think of the metadata files that come with a Python or Debian package._
+
+{: .note }
+> _Think of the metadata files that come with a Python or Debian package._
 
 * These are the files that describe the layout of a product so that SMP/E knows how to find and install the files contained in the product.
 
@@ -39,21 +43,29 @@ parent: Dictionary
 * In SMP/E, REQ is specified as part of the ++VER SMPMCS statement to define an FMID/product that the FMID/product being installed requires.
 
 ### Rexx *(Restructured Extended Executor)*
-> 💡 _Rexx is a lot like Python._
+
+{: .note }
+> _Rexx is a lot like Python._
 
 * High level programming language developed at IBM UK.
 
 ### RMF *(Resource Measurement Facility)*
-> 💡 _Think of **Task Manager** on Windows._
+
+{: .note }
+> _Think of **Task Manager** on Windows._
 
 * Optional z/OS product used for measuring system performance.
 
 ### RMODE *(Residency Mode)*
-> 💡 _Think 32 bit and 64 bit intel._
+
+{: .note }
+> _Think 32 bit and 64 bit intel._
 
 * Defines what address ranges a program can run in (i.e. 24 bit, 31 bit 64 bit). For example, a RMODE24 program cannot run in an area in memroy/storage that is not addressable with 24 bits.
 
 ### RRDS *(Relative Record Data Set)*
-> 💡 _This is functionally similar to an array in high level programming languages where elements are accessed by their index._
+
+{: .note }
+> _This is functionally similar to an array in high level programming languages where elements are accessed by their index._
 
 * A VSAM data set where data is accessed by it's record number where each record number is relative to the first record.

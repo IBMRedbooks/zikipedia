@@ -39,6 +39,10 @@
     background-color: #334;
 }
 
+hr {
+    margin-left: -20px;
+}
+
 .search-result:hover, hr {
     background-color: #445;
 }
@@ -50,6 +54,7 @@ a, .search-result-doc .search-result-icon {
 a:not([class]) {
     color: #77f;
     background-image: none;
+    text-decoration: none;
 }
 
 a:not([class]):hover, a:not([class]):focus-visible {
@@ -176,23 +181,58 @@ tr:last-child > td:last-of-type {
     border-radius: 0 0 10px 0;
 }
 
+pre.highlight {
+    background-color: #334;
+}
+
 code.highlighter-rouge {
     background-color: #445;
-    border: 1px solid #445;
+    border: none;
 }
 
 code, div.highlighter-rouge {
     background-color: #334;
     margin-bottom: 24px;
+    line-height: 1;
 }
 
 em {
     color: #bbb;
 }
 
+blockquote.note, p.note {
+    border-left: 4px solid #77f;
+    background-color: rgba(119, 119, 255, 0.2)
+}
+
+blockquote.note::before, p.note::before {
+    color: #99f;
+}
+
+blockquote.note > p > em > code.highlighter-rouge,
+p.note > p > em > code.highlighter-rouge {
+    background-color: #557;
+}
+
+blockquote.warning > p > em > code.highlighter-rouge {
+    background-color: #553;
+}
+
+.main-content {
+    margin-left: 20px;
+}
+
 p, .main-content ul, .main-content blockquote {
     margin-bottom: 0;
     margin-top: 0;
+}
+
+h4, .main-content h4 {
+    font-weight: bold;
+    font-size: 17px !important;
+    letter-spacing: 0;
+    text-transform: none;
+    margin-bottom: 10px;
 }
 
 h3 {
@@ -205,6 +245,7 @@ h2 {
 
 h1, h2, h3 {
     font-weight: bold;
+    margin-left: -20px;
 }
 
 h3 > em {

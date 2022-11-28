@@ -23,7 +23,9 @@ parent: Dictionary
 * General use execuable modules available for use on the system.
 
 ### LINKLIST
-> 💡 _This is the z/OS equivalent of `PATH` on Linux._
+
+{: .note }
+> _This is the z/OS equivalent of `PATH` on Linux._
 
 * This is a concatenation of executable load modules on the system that allows them to be called and executed easily.
 
@@ -34,12 +36,16 @@ parent: Dictionary
 * This is the metadata that is produced by the compiler about the built binary object. In other words, a listing decribes everything that happened during compilation in great detail. Listings can be useful for debugging since they give insight into how a binary was built/compiled.
 
 ### LLQ *(Low Level Qualifier)*
-> 💡 _Think of the the last `/` delimited segment in a Linux path (`/home/user/hello.txt`)_
+
+{: .note }
+> _Think of the the last `/` delimited segment in a Linux path (`/home/user/hello.txt`)_
 
 * This is the most specific part of a data set name. Given the data set `RICKY.JCL.JOB1`, `JOB1` would be the low level qualifier because it identifies the exact data set being referenced.
 
 ### Load Module
-> 💡 _Think of a `.exe` file on Windows._
+
+{: .note }
+> _Think of a `.exe` file on Windows._
 
 * This is an an executable program on z/OS.
 
@@ -53,7 +59,9 @@ parent: Dictionary
 * A segment of the z/OS system that is reserved for one operating system. There can be many LPARs on one z/OS system, meaning that multiple operating systems can be run on one z/OS box. Note that this is not a virtual machine hypervisor. The operating systems are not virtualized.
 
 ### LRECL *(Logical Record Length)*
-> 💡 _Think of punch cards. A punch card, which represents one record or line can only contain 80 characters._
+
+{: .note }
+> _Think of punch cards. A punch card, which represents one record or line can only contain 80 characters._
 
 * This is the maximum size that one line or stream of data can be in a data set. For example, a data set with a Logical Record Length of 80 allows only 80 bytes or characters to be written to one record or line.
 

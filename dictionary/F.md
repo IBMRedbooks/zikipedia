@@ -15,7 +15,9 @@ parent: Dictionary
 * Fiber optic channel/network connection. *(very fast)*
 
 ### FMID *(Function Modification Identifier)*
-> 💡 _This is functionaly similar to a version number or a git commit id._
+
+{: .note }
+> _This is functionaly similar to a version number or a git commit id._
 
 * This is a code that identifies the release of a z/OS product or component.
 

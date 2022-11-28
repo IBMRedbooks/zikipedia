@@ -9,22 +9,30 @@ parent: Dictionary
 &nbsp;
 
 ### DAT *(Dynamic Address Translation)*
-> 💡 _Note that the user's programs run in a logical address space meaning that the operating system needs a mechanism to translate references to logical addresses to real addresses._
+
+{: .note }
+> _Note that the user's programs run in a logical address space meaning that the operating system needs a mechanism to translate references to logical addresses to real addresses._
 
 * This is a z/OS hardware capability that allows the user's virtual addresses to be translated into real addresses when interpreted by the processor.
 
 ### Data Set
-> 💡 _In general, a data set is functionaly the same as a Unix file even though data sets are structurally different from Unix files._
+
+{: .note }
+> _In general, a data set is functionaly the same as a Unix file even though data sets are structurally different from Unix files._
 
 * Functionally speaking, a data set is just a file.
 
 ### DASD *(Direct Access Storage Device)*
-> 💡 _This is like the z/OS version of the SSDs and hard drives you use on your PC._
+
+{: .note }
+> _This is like the z/OS version of the SSDs and hard drives you use on your PC._
 
 * A disk/storage device.
 
 ### DB2
-> 💡 _Note that DB2 is optimized to leverage z/OS capabilities._
+
+{: .note }
+> _Note that DB2 is optimized to leverage z/OS capabilities._
 
 * This is a relational database like MySLQ or PostgreSQL.
 
@@ -53,7 +61,9 @@ parent: Dictionary
 * Contains an entire copy of the z/OS product. This is used by SMPE as a local repository where new APARs and PTFs can be added, and the updates can be installed from this repository when the organization is ready. DLIBs may also be used for backup.
 
 ### DSLIST *(Data Set List)*
-> 💡 _This is analogous to the ls command on Linux._
+
+{: .note }
+> _This is analogous to the ls command on Linux._
 
 * This is the panel in ISPF used to list data sets.
 

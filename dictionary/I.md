@@ -9,7 +9,9 @@ parent: Dictionary
 &nbsp;
 
 ### ICSF *(Integrated Cryptographic Facility)*
-> 💡 _Like the graphics card you install on your PC but instead of being optimized for foating point operations, crypto cards are optimized for doing cryptography._
+
+{: .note }
+> _Like the graphics card you install on your PC but instead of being optimized for foating point operations, crypto cards are optimized for doing cryptography._
 
 * z/OS component that provides the interface to the crypto cards on the system.
 
@@ -20,7 +22,9 @@ parent: Dictionary
 * Eclipse plugins for developing software for z/OS.
 
 ### IEBCOPY
-> 💡 _This tool is functionally similar to the `cp` command on Linux._
+
+{: .note }
+> _This tool is functionally similar to the `cp` command on Linux._
 
 * A program used for copying data sets.
 
@@ -28,7 +32,9 @@ parent: Dictionary
 * A program used specifically for copying flat or sequential data sets.
 
 ### IEWBLINK
-> 💡 _This is a lot like the `ld` command on Linux._
+
+{: .note }
+> _This is a lot like the `ld` command on Linux._
 
 * Program used to invoke the binder, which is the link editor for z/OS.
 
@@ -54,7 +60,9 @@ parent: Dictionary
 * TODO
 
 ### IPL *(Initial Program Load)*
-> 💡 _Like booting your PC._
+
+{: .note }
+> _Like booting your PC._
 
 * Used to refer to doing a cold start of the system.
 
