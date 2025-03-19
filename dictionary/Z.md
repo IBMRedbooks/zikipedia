@@ -20,7 +20,7 @@ parent: Dictionary
 ### ZFS *(System z File System)*
 * ZFS is the successor to HFS. ZFS allows multilevel security to be implemented and one ZFS can contain more than one logical file system.
 
-### zIPP *(System z Integrated Information Processor)*
+### zIIP *(System z Integrated Information Processor)*
 * This is a special purpose processor designed specifically for handing DB2 workloads.
 
 ### ZOAU *(Z Open Automation Utilities)*
